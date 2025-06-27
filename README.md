@@ -50,7 +50,7 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 - Axios for API communication
 
 ### Backend
-- Node.js (node_modules are not included in the drive due to large storage)
+- Node.js
 - Express.js
 - MongoDB + Mongoose
 - JWT for authentication
@@ -66,13 +66,13 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 - Node.js and npm ([Install here](https://nodejs.org/en/download/))
 - MongoDB ([Install here](https://www.mongodb.com/try/download/community))
 - Git
-
+- node_modules are not included in the folder due to large memory
 ---
 
 ### 📦 Setup Instructions
 
 ```bash
-# download zip file from drive and unzip it
+get the code from the drive 
 cd Learnhub
 
 # Install backend dependencies
@@ -90,3 +90,42 @@ npm install
 # Start frontend (Vite) server
 npm run dev
 # App runs at: http://localhost:5173
+```
+🧱 Database Structure (MongoDB)
+
+Users Collection
+	•	_id
+	•	name
+	•	email
+	•	password
+	•	type (student / teacher / admin)
+
+Courses Collection
+	•	_id
+	•	userID (teacher)
+	•	C_educator
+	•	C_categories
+	•	C_title
+	•	C_description
+	•	sections
+	•	C_price
+	•	enrolled (array of student IDs)
+
+ 🗂 Project Structure
+ Learnhub/
+├── code/
+│   ├── backend/       # Express server & API
+│   └── frontend/      # React UI (Vite)
+└── README.md
+
+🎯 Project Milestones
+	1.	✅ Setup folder structure and configurations
+	2.	✅ Backend development with Express, MongoDB, and JWT
+	3.	✅ Frontend development with React, Bootstrap, MUI
+	4.	✅ Authentication system and role-based access (Student, Teacher, Admin)
+	5.	✅ Course management features
+	6.	✅ Final integration, testing, and UI polishing
+
+ 📃 License
+
+This project is for educational and academic use under team ID LTVIP2025TMID54785.
