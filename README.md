@@ -1,4 +1,4 @@
-# 📚 Learnhub – Online Learning Platform using MERN
+# 📚 LearnHub: Your Center For Skill Enhancement 
 
 An online learning platform (OLP) that empowers students, teachers, and admins through seamless content delivery, course management, and certification using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
