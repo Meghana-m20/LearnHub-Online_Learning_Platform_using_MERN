@@ -15,11 +15,11 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 
 ---
 
-## 🌐 Live Demo & Code
+## 🌐 Live Demo & Code & Final Project Report
 
 - 📂 [Project Drive Folder – Code & Resources](https://drive.google.com/drive/folders/1d7N-lwCb5QvT7ERs9AeqnU_4mmaSCNNv?usp=share_link)
 - 🎥 [Demo Video](https://drive.google.com/file/d/1ehubxqoLt0Jc3J71MoKl7zR-WagaS3jy/view?usp=share_link)
-
+-    [Final Project Report](https://github.com/Meghana-m20/LearnHub-Online_Learning_Platform_using_MERN/blob/main/Documentation/Project%20Report.pdf)
 ---
 
 ## 🚀 Features
