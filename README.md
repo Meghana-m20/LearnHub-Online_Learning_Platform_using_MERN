@@ -1,4 +1,4 @@
-# 📚 LearnHub: Your Center For Skill Enhancement 
+# 📚 LearnHub: Your Center For Skill Enhancement
 
 An online learning platform (OLP) that empowers students, teachers, and admins through seamless content delivery, course management, and certification using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
@@ -8,7 +8,7 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 
 - **Team ID:** LTVIP2025TMID54785  
 - **Team Leader:** Madduri Vara Prasad  
-- **Team Members:**  
+- **Team Members:**
   - Nandyala Meghana  
   - Phaneendra Gangadi  
   - Velagala Maheswari  
@@ -17,7 +17,7 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 
 ## 🌐 Live Demo & Code
 
-- 🔗 [Project Drive Folder (Code & Resources)](https://drive.google.com/drive/folders/1d7N-lwCb5QvT7ERs9AeqnU_4mmaSCNNv?usp=share_link)  
+- 📂 [Project Drive Folder – Code & Resources](https://drive.google.com/drive/folders/1d7N-lwCb5QvT7ERs9AeqnU_4mmaSCNNv?usp=share_link)
 - 🎥 [Demo Video](https://drive.google.com/file/d/1ehubxqoLt0Jc3J71MoKl7zR-WagaS3jy/view?usp=share_link)
 
 ---
@@ -44,12 +44,12 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 
 ## 🛠️ Tech Stack
 
-### Frontend
+### 🔹 Frontend
 - React.js (Vite)
 - Bootstrap, Material UI, MDB React UI Kit, Ant Design
 - Axios for API communication
 
-### Backend
+### 🔹 Backend
 - Node.js
 - Express.js
 - MongoDB + Mongoose
@@ -62,17 +62,18 @@ An online learning platform (OLP) that empowers students, teachers, and admins t
 ## ⚙️ Installation Guide
 
 ### 🔧 Prerequisites
-
-- Node.js and npm ([Install here](https://nodejs.org/en/download/))
-- MongoDB ([Install here](https://www.mongodb.com/try/download/community))
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
 - Git
-- node_modules are not included in the folder due to large memory
+
+> 📝 **Note:** `node_modules` folders are excluded from the repository via `.gitignore`. Run `npm install` to restore dependencies locally.
+
 ---
 
 ### 📦 Setup Instructions
 
 ```bash
-get the code from the drive 
+# Get the code from the drive or clone the repo
 cd Learnhub
 
 # Install backend dependencies
@@ -91,16 +92,16 @@ npm install
 npm run dev
 # App runs at: http://localhost:5173
 ```
-🧱 Database Structure (MongoDB)
+Database Structure (MongoDB)
 
-Users Collection
+🔸 Users Collection
 	•	_id
 	•	name
 	•	email
 	•	password
 	•	type (student / teacher / admin)
 
-Courses Collection
+🔸 Courses Collection
 	•	_id
 	•	userID (teacher)
 	•	C_educator
@@ -111,11 +112,11 @@ Courses Collection
 	•	C_price
 	•	enrolled (array of student IDs)
 
- 🗂 Project Structure
- Learnhub/
+🗂 Project Structure
+Learnhub/
 ├── code/
-│   ├── backend/       # Express server & API
-│   └── frontend/      # React UI (Vite)
+│   ├── backend/   # Express server & API
+│   └── frontend/  # React UI (Vite)
 └── README.md
 
 🎯 Project Milestones
@@ -125,7 +126,7 @@ Courses Collection
 	4.	✅ Authentication system and role-based access (Student, Teacher, Admin)
 	5.	✅ Course management features
 	6.	✅ Final integration, testing, and UI polishing
+ 
+ 📄 License
 
- 📃 License
-
-This project is for educational and academic use under team ID LTVIP2025TMID54785.
+This project is developed for educational and academic use under Team ID: LTVIP2025TMID54785.
